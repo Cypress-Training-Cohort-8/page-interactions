@@ -16,6 +16,7 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import 'cypress-file-upload'
+import 'cypress-fill-command'
 
 Cypress.on('uncaught:exception', () => {
     return false
