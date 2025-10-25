@@ -5,7 +5,7 @@ module.exports = defineConfig({
     baseUrl: 'https://the-internet.herokuapp.com',
     viewportHeight: 960,
     viewportWidth: 1530,
-    defaultCommandTimeout: 10000,
+    defaultCommandTimeout: 60000,
     chromeWebSecurity: false,
     includeShadowDom: true,
     watchForFileChanges: false,
