@@ -5,10 +5,7 @@ module.exports = defineConfig({
     baseUrl: 'https://the-internet.herokuapp.com',
     viewportHeight: 960,
     viewportWidth: 1530,
-    defaultCommandTimeout: 60000,
-    chromeWebSecurity: false,
-    includeShadowDom: true,
-    watchForFileChanges: false,
+    defaultCommandTimeout: 10000,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
