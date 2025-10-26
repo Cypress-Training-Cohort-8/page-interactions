@@ -7,7 +7,5 @@ describe('Demonstrating Select Dropdown', () => {
                 cy.wrap($input).fill(details[ind])
             })
         })
-        // cy.get('shadow-signup-form').shadow().find('input[name="username"]').type('sanguine')
-        // cy.get('shadow-signup-form').shadow().find('input[name="email"]').type('sanguine@example.com')
-    })
+     })
 })
